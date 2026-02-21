@@ -209,7 +209,7 @@ function prevSlide(){
 
 
 document.getElementById("ff").addEventListener("submit", function(e) {
-  e.preventDefault(); // يمنع الريلود
+  // e.preventDefault(); // يمنع الريلود
 
   // هنا ممكن تحط كود الإرسال الحقيقي لو بتبعت بيانات للسيرفر
 
@@ -261,4 +261,5 @@ prevBtn.addEventListener("click", () => {
 
 updateSlider();
 prevBtn.style.display="none"
+
 
